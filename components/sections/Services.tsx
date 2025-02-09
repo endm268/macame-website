@@ -48,16 +48,15 @@ const Services = () => {
               className="bg-gray-50 rounded-lg shadow-md p-4 sm:p-5 flex flex-col items-center text-center gap-3 sm:gap-4"
             >
               {/* Service Image with Lazy Loading */}
-              <div className="w-full h-[200px] relative overflow-hidden rounded-md service-image" data-index={index}>
+              <div className="w-full h-[200px] relative overflow-hidden rounded-sm service-image" data-index={index}>
                 {visibleImages.includes(index) ? (
                  <Image
                  src={service.image}
                  alt={service.title}
                  fill
-                 className="object-cover rounded-lg"
+                 className="object-cover "
                  priority={false} // تحسين الأداء عبر تحميل الصور عند الحاجة
                  loading="lazy" // تحميل الصور عند الحاجة فقط
-                 unoptimized // تجاوز تحسين الصور في Next.js عند استخدام Google Drive
                />
                 ) : (
                   <Image

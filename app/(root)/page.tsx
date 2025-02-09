@@ -1,5 +1,6 @@
 import Hero from "@/components/sections/heros/Hero";
 import Services from "@/components/sections/Services";
+import Image from "next/image";
 import React from "react";
 
 const Home = () => {

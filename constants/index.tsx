@@ -41,22 +41,22 @@ export const servicesData = [
   {
     id: 1,
     title: "صناعة المحتوى",
-    description: "نقدم خدمات صناعة محتوى جذاب يترك انطباعًا دائمًا.",
-    image: "/images/Content_design.jpg",
+    description: "نقدم خدمات صناعة محتوى جذاب يترك انطباعًا دائمًا",
+    image: "https://drive.google.com/uc?export=view&id=1IW3NtJNGu8pY0bNeh5kHglI6z-c1Urhh",
     blurImage: "/images/Content_design_small.jpg",
   },
   {
     id: 2,
     title: "إدارة السوشيال ميديا",
-    description: "إدارة احترافية لصفحات التواصل الاجتماعي لتحقيق أفضل النتائج.",
-    image: "/images/Social_media_management.jpg",
+    description: "إدارة احترافية لصفحات التواصل الاجتماعي لتحقيق أفضل النتائج",
+    image: "https://drive.google.com/uc?export=view&id=1UjzASKTSgdaJIXPsD6WUTpQ-dqRI5A1-",
     blurImage: "/images/Social_media_management_small.jpg",
   },
   {
     id: 3,
     title: "التعليق الصوتي",
     description: "تعليق صوتي مميز يناسب جميع احتياجاتك.",
-    image: "/images/voiceover.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1cahFSw6bvxUxcO9OIrieINb5yxdfNYBQ",
     blurImage: "/images/voiceover_small.jpg",
   },
 ];
