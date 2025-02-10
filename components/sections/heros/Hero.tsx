@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative flex flex-col-reverse gap-12 md:gap-0 sm:flex-row items-center justify-between py-12 px-4 sm:py-16 sm:px-16"
+      className="relative flex flex-col-reverse h-96 gap-12 md:gap-0 sm:flex-row items-center justify-between py-12 px-4 sm:py-16 sm:px-16"
     >
       {/* Background Gradient */}
       <div className="absolute inset-0 -z-10 hidden sm:block bg-red-gradient bg-cover bg-center bg-no-repeat rounded-sm" />

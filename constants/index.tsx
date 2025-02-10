@@ -42,60 +42,71 @@ export const servicesData = [
     id: 1,
     title: "صناعة المحتوى",
     description: "نقدم خدمات صناعة محتوى جذاب يترك انطباعًا دائمًا",
-    image: "https://drive.google.com/uc?export=view&id=1IW3NtJNGu8pY0bNeh5kHglI6z-c1Urhh",
+    image:
+      "https://lh3.googleusercontent.com/d/1IW3NtJNGu8pY0bNeh5kHglI6z-c1Urhh=w1000-h800",
     blurImage: "/images/Content_design_small.jpg",
   },
   {
     id: 2,
     title: "إدارة السوشيال ميديا",
     description: "إدارة احترافية لصفحات التواصل الاجتماعي لتحقيق أفضل النتائج",
-    image: "https://drive.google.com/uc?export=view&id=1UjzASKTSgdaJIXPsD6WUTpQ-dqRI5A1-",
+    image:
+      "https://lh3.googleusercontent.com/d/1-QKmaUvnEDPTpuZ4cduzawCFdNZ4zdtn=w1000-h800",
     blurImage: "/images/Social_media_management_small.jpg",
   },
   {
     id: 3,
     title: "التعليق الصوتي",
     description: "تعليق صوتي مميز يناسب جميع احتياجاتك.",
-    image: "https://drive.google.com/uc?export=view&id=1cahFSw6bvxUxcO9OIrieINb5yxdfNYBQ",
+    image:
+      "https://lh3.googleusercontent.com/d/1cahFSw6bvxUxcO9OIrieINb5yxdfNYBQ=w1000-h800",
     blurImage: "/images/voiceover_small.jpg",
   },
 ];
 
 export const SocialMediaDesigns = [
   {
-    id: "1", // تحويل id إلى string
-    title: "صناعة المحتوى",
-    description: "نقدم خدمات صناعة محتوى جذاب يترك انطباعًا دائمًا.",
-    image: "https://drive.google.com/uc?export=view&id=1IW3NtJNGu8pY0bNeh5kHglI6z-c1Urhh",
+    id: "1",
+    title: "Post 1",
+    image:
+      "https://lh3.googleusercontent.com/d/13oal2b1Tr91NdtfxYyHuqyoM4De7NgJj=w1000-h800",
     blurImage: "/images/Content_design_small.jpg",
   },
   {
     id: "2",
     title: "إدارة السوشيال ميديا",
-    description: "إدارة احترافية لصفحات التواصل الاجتماعي لتحقيق أفضل النتائج.",
     image: "/images/Social_media_management.jpg",
     blurImage: "/images/Social_media_management_small.jpg",
   },
   {
     id: "3",
     title: "التعليق الصوتي",
-    description: "تعليق صوتي مميز يناسب جميع احتياجاتك.",
     image: "/images/voiceover.jpg",
     blurImage: "/images/voiceover_small.jpg",
   },
   {
     id: "4",
     title: "إدارة السوشيال ميديا",
-    description: "إدارة احترافية لصفحات التواصل الاجتماعي لتحقيق أفضل النتائج.",
     image: "/images/Social_media_management.jpg",
     blurImage: "/images/Social_media_management_small.jpg",
   },
   {
     id: "5",
     title: "التعليق الصوتي",
-    description: "تعليق صوتي مميز يناسب جميع احتياجاتك.",
     image: "/images/voiceover.jpg",
     blurImage: "/images/voiceover_small.jpg",
+  },
+];
+
+
+export const voiceoverProjects = [
+  {
+    id: "1",
+    title: "تعليق صوتي عن الشركة",
+    description: "تعليق صوتي احترافي للمشاريع الإعلامية والتسويقية.",
+    image: "https://lh3.googleusercontent.com/d/1cahFSw6bvxUxcO9OIrieINb5yxdfNYBQ=w1000-h800",
+    blurImage: "/images/voiceover_small.jpg",
+    audio: "/audio/voice_over_about_the_company.mp3",
   },
 ];
 
