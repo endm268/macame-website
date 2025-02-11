@@ -106,9 +106,10 @@ export const voiceoverProjects = [
     description: "تعليق صوتي احترافي للمشاريع الإعلامية والتسويقية.",
     image: "https://lh3.googleusercontent.com/d/1cahFSw6bvxUxcO9OIrieINb5yxdfNYBQ=w1000-h800",
     blurImage: "/images/voiceover_small.jpg",
-    audio: "/audio/voice_over_about_the_company.mp3",
+    audio: "https://drive.google.com/uc?export=download&id=1QDEYV09gGlbVYvbcEtmy4yPJmdwPyhn8",
   },
 ];
+
 
 export const people = [
   {

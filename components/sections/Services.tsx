@@ -114,7 +114,7 @@ const Services = () => {
         </motion.div>
 
         {/* Navigate to Services Button */}
-        <motion.div
+        {/* <motion.div
           className="flex justify-center items-center mt-6 sm:mt-10"
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -128,7 +128,7 @@ const Services = () => {
           >
             احصل علي خدماتنا
           </motion.button>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

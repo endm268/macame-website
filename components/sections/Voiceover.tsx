@@ -5,8 +5,6 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { voiceoverProjects } from "@/constants";
 
-
-
 const Voiceover = () => {
   const [hasMounted, setHasMounted] = useState(false);
   const router = useRouter();
@@ -89,11 +87,21 @@ const Voiceover = () => {
       ))}
 
       {/* Navigate to Services Button */}
-      <motion.div className="flex justify-center items-center mt-6 sm:mt-10" initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, ease: "easeOut" }}>
-          <motion.button onClick={() => router.push("/services")} className="px-4 py-2 sm:px-5 sm:py-3 bg-myColorRed text-white font-bold rounded-lg shadow-md hover:bg-myColorRed-dark transition-transform transform hover:scale-105 flex items-center justify-center gap-2 text-sm sm:text-base" whileHover={{ scale: 1.05 }}>
-            احصل علي خدماتنا
-          </motion.button>
-        </motion.div>
+      <motion.div
+        className="flex justify-center items-center mt-6 sm:mt-10"
+        initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+      >
+        <motion.button
+          onClick={() => router.push("/services")}
+          className="px-4 py-2 sm:px-5 sm:py-3 bg-myColorRed text-white font-bold rounded-lg shadow-md hover:bg-myColorRed-dark transition-transform transform hover:scale-105 flex items-center justify-center gap-2 text-sm sm:text-base"
+          whileHover={{ scale: 1.05 }}
+        >
+          احصل علي خدماتنا
+        </motion.button>
+      </motion.div>
     </section>
   );
 };
